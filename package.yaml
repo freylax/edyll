@@ -1,0 +1,15 @@
+name:               edyll
+version:            0.1.0.0
+synopsis:           hakyll compiler for single page web sites
+
+
+executable:
+  main:          edyll.hs
+  source-dirs:   src
+  dependencies:
+    - base 
+    - hakyll
+    - hakyll-dir-list
+    - hakyll-sass              
+    - hsass
+  ghc-options: -threaded

@@ -1,0 +1,13 @@
+resolver: lts-12.7
+
+allow-newer: true
+
+extra-deps:
+  - hakyll-dir-list-1.0.0.2
+  - hakyll-sass-0.2.3
+
+
+
+
+
+
